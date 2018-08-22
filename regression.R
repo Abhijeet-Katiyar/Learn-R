@@ -13,7 +13,7 @@ test_set=subset(DF,split==FALSE)
 # Linear regression
 
 #fitting
-regressor = lm(formula=DF$Salary~DF$YearsExperience,data=training_set)
+regressor = lm(formula=Salary~YearsExperience,data=training_set)
 regressor
 summary(regressor)
 
